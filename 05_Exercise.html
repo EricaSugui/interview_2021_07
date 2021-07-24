@@ -1,0 +1,17 @@
+<!-- 
+/**
+ * 05. Exercise
+ * Source URL = https://www.delltechnologies.com/pt-br/perspectives/realizing-2030.htm
+ * Change the appearance of the buttons as pointed in the below image.
+ * The top button should have a white border and a blue background;
+ * The bottom button should have both the border and background white-coloured;
+ *
+ * This answer is given in .html file since the exercise sheet ask for this type.
+ */ -->
+ 
+ <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+ 
+ <script>
+    $(".btn.cta-v2.primary").removeClass("primary").addClass("secondary")
+    $(".btn.cta-v2.secondary:contains('Ver todos os artigos')").removeClass("secondary").addClass("primary") 
+ </script>
